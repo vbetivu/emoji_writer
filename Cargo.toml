@@ -1,5 +1,5 @@
 [package]
-name = "write_with_emoji"
+name = "emoji_writer"
 version = "0.1.0"
 authors = ["Vladislav <vlad.betivu@gmail.com>"]
 edition = "2018"

@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "write_with_emoji"
+name = "emoji_writer"
 version = "0.1.0"

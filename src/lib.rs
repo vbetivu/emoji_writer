@@ -53,7 +53,7 @@ impl Config {
 fn validate_emoji(emoji: &Option<String>) -> Result<(), &'static str> {
     if let Some(emoji_string) = emoji {
         if !emoji_string.starts_with(":") || !emoji_string.ends_with(":") {
-            return Result::Err("Emoji should start with ':' and end with ':'!");
+            return Result::Err("Emoji should start and end with a ':'!");
         }
     } else {
         return Result::Err("Emoji was not provided!");
