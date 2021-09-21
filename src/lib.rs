@@ -31,7 +31,7 @@ impl Config {
                 } else if arg == STROKE_ARG {
                     stroke_emoji = args.next();
 
-                    validate_emoji(&space_emoji)?;
+                    validate_emoji(&stroke_emoji)?;
                 } else {
                     input.push(arg);
                 }
